@@ -1,0 +1,27 @@
+body{
+    font-family: 'Press Start 2P', 'sans-serif';
+    color: white;
+    font-size: 60%;
+    font-weight: 100;
+    background: #000000;
+}
+
+.logo{
+    margin: 0;
+    width: 380px;
+    display: block;
+}
+
+.header{
+    background-color: #1c1c1c;
+    position: fixed;
+    top: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.mainTitle{
+    margin-top: 100px;
+}

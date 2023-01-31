@@ -1,5 +1,7 @@
-html, body{
-  height: 600%;
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,7 +14,7 @@ body{
 
 .logo{
     margin: auto;
-    width: 380px;
+    width: 80%;
     display: block;
 }
 
@@ -20,6 +22,7 @@ body{
     background-color: #1c1c1c;
     position: fixed;
     top: 0px;
+    display: block;
 }
 
 .hidden {
@@ -27,5 +30,5 @@ body{
 }
 
 .mainTitle{
-    margin-top: 100px;
+    margin-top: 20%;
 }

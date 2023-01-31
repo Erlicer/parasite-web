@@ -1,3 +1,7 @@
+html, body{
+  height: 600%px;
+}
+
 body{
     font-family: 'Press Start 2P', 'sans-serif';
     color: white;

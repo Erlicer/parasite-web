@@ -60,6 +60,7 @@
 
 
 .normalBtn {
+  display: inline-block;
   background-image: linear-gradient(to right, #ff6d00 0%, #ff3000 100%);
   border-radius: 40px;
   box-sizing: border-box;

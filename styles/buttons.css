@@ -1,15 +1,15 @@
-.gamejolt{
+.imgBtn{
   width: 20%;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.gamejolt{
+.imgBtn{
   filter: grayscale(1);
   transition: grayscale 0.5s;
 }
 
-.gamejolt:hover {
+.imgBtn:hover {
   -webkit-animation: pulse 0.5s;
   animation: pulse 0.5s;
   box-shadow: 0 0 0 2em transparent;
@@ -25,21 +25,18 @@
   }
 }
 
-.gamejolt:hover{
+.imgBtnt:hover{
   background: white;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
-  animation: pulseGJ 1s;
+  animation: pulse 1s;
   filter: grayscale(0);
 }
 
-@keyframes pulseGJ {
+@keyframes pulse {
   0% {
-    filter: grayscale(1);
     transform: scale(0.95);
   }
   
   50% {
-    filter: grayscale(0);
     transform: scale(1.1);
   }
   

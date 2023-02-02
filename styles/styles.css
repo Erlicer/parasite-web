@@ -22,6 +22,9 @@ body{
 
 .header{
     background-color: #161619;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-color: slategray;
     position: fixed;
     top: 0px;
     display: block;

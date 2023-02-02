@@ -10,7 +10,6 @@ body{
     2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
     font-size: 60%;
     font-weight: 100;
-    background: #1e1e23;
     line-height: 120%;
 }
 
@@ -21,14 +20,12 @@ body{
 }
 
 .header{
-    background-color: #161619;
-    border-bottom: solid;
-    border-bottom-width: thick;
-    border-bottom-color: slategray;
+    background-color: transparent;
     position: fixed;
     top: 0;
     display: block;
     margin: -8px;
+    background-repeat: no-repeat;
 }
 
 .hidden {
@@ -36,7 +33,7 @@ body{
 }
 
 .mainTitle{
-    margin-top: 22%;
+    margin-top: 50%;
 }
 
 .botTxtLog{
@@ -57,36 +54,27 @@ body{
 }
 
 .normalBtn{
-  margin-top: 30%;
+  margin-top: 800%;
 }
 
 html{
-  display: flex;
-  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (mac-width: 768px){
-  html{
-    flex-direction: column;
-    margin-left: 0;
-  }
+.gradient{
+  margin-left: -2%;
+  width: 104%;
+  margin-top: 20%;
 }
 
-@media screen and (max-width: 720px){
-  html{
-    flex-direction: column;
-    margin-left: 0;
-    margin-top: 10%;
-  }
+body{
+  background-size: 100%;
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-color: #1D1D1D;
 }
 
-@media screen and (min-width: 1224px){
-  .mainTitle{
-    margin-top: 30%;
-    margin-left: 0;
-  }
-}
-
-html{
-  align-items: center;
+.normalBtn{
+ align-items: left;
 }

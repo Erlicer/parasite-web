@@ -84,5 +84,6 @@ html{
 @media screen and (min-width: 1224px){
   .mainTitle{
     margin-top: 30%;
+    margin-left: 0;
   }
 }

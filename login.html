@@ -7,21 +7,37 @@
     <link rel="stylesheet" href="styles/styles2.css">
     <link rel="stylesheet" href="styles/buttons.css">
     <link rel="shortcut icon" type="image/x-icon" href="parasite.ico">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>L̃̈̐̾ͪ̽̉̉̐̐̏͐ͫ̂̌ͭ͡͏̳͖͚̘̼̗̩̞ͅo̧ͮ̑̌̓͋ͬ̑̎͆̔̚̕͡҉͙̞̘͙g̸̷̦̞̟͇ͤ̃̾̀̀͆͂ͩ͂ͨͨ̕i̛͍̪̘̺̠̞͔̠̝͚̼̯̒͑̽̎̈̑͗͆̚͝n̷ͣ̅̅̾ͬͤ́̕͟͏͖̤̱̩͟</title>
 </head>
 <body>
+      <form action**>
         <div class="loginBox" style="text-align:center">
           <div class="userBox">
-            <input type="text" name="user" placeholder="User"></div>
+            <input type="text" name="user" placeholder="User" id="user"></div>
           <div class="accessBox">
-            <input type="text" name="accessCode" placeholder="Acces Code"></div>
-          <a class="normalBtn" href="#"><span class="normalBtnspan">Login</span></a>
+            <input type="text" name="accessCode" placeholder="Acces Code" id="accessCode"></div>
+          <button class="normalBtn" onclick="loginClick()"><span class="normalBtnspan">Login</span></button>
         </div>
-        <h5 class="botTxtLog">This web page has not been accessed since ▇▇▇▇<br> Please... Keep in mind that some functions may not work.</h5>
-        <h3 class="date">© 08/07/2598</h3>
+        <h5 id="botTxtLog">This web page has not been accessed since ▇▇▇▇<br> Please... Keep in mind that some functions may not work.</h5>
+        <h3 id="date">© 08/07/2598</h3>
+        </form>
+        
+      <script type="text/javascript">
+      
+      function loginClick(){
+        
+        const userTxt = document.getElementById("user").value
+        const accessTxt = document.getElementById('accessCode');
+        
+        System.out.println("your grade is A");
+        if (userTxt == "DESGRACE" {
+          window.open('https://google.com', '_blank');
+        }
+      }
+      </script>
 </body>
 
 </html>

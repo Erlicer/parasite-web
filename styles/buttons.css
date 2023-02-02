@@ -101,4 +101,6 @@
   margin-right: auto;
   justify-content: center;
   align-items: center;
+  outline: none;
+  border: none;
 }

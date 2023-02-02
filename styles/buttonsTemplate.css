@@ -1,0 +1,49 @@
+.gamejolt{
+  width: 20%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gamejolt{
+  filter: grayscale(1);
+  transition: grayscale 0.5s;
+}
+
+.gamejolt:hover {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 2em transparent;
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+
+.gamejolt:hover{
+  background: white;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  animation: pulseGJ 1s;
+}
+
+@keyframes pulseGJ {
+  0% {
+    filter: grayscale(1);
+    transform: scale(0.95);
+  }
+  
+  50% {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  
+  100% {
+    transform: scale(1);
+    filter: grayscale(0);
+  }
+}

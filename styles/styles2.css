@@ -1,0 +1,85 @@
+html {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60%;
+    font-weight: 100;
+    background: black;
+    line-height: 120%;
+}
+
+.botTxtLog{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 105%;
+  font-size: 100%;
+  font-weight: thick;
+}
+
+.date{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.normalBtnspan{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  text-align: center;
+}
+
+.normalBtn{
+  margin-top: 5%;
+}
+
+input{
+  font-family: sans-serif;
+  margin-top: 3%;
+  text-align: center;
+  width: 30%;
+  border: solid;
+  line-height: 100%;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color:  #ff6d00;
+  color: #ff6d00;
+  background-color: transparent;
+}
+
+input:hover{
+  width: 70%;
+  animation: size 0.5s;
+  line-height: 200%;
+}
+
+input::placeholder{
+  color: #ff6d00;
+}
+
+input:focus{
+  outline: none;
+}
+
+@keyframes size{
+  0%{
+    width: 30%;
+    line-height: 100%;
+  }
+  100%{
+    width: 70%;
+    line-height: 200%;
+  }
+}
+
+.loginBox{
+  margin-top: 15%;
+  background-color: #1e1e23;
+  border-radius: 30px;
+}
+
+.mainTitle{
+  margin-top: 10%;
+}

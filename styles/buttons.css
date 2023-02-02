@@ -57,3 +57,47 @@
     box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
   }
 }
+
+
+.normalBtn {
+  background-image: linear-gradient(to right, #ff6d00 0%, #ff3000 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ff6d00;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+.normalBtn:hover {
+  color: #fff;
+}
+
+.normalBtn .normalBtnspan {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.normalBtn:hover .normalBtnspan {
+  background: transparent;
+}
+
+.normalBtn{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}

@@ -57,5 +57,32 @@ body{
 }
 
 .normalBtn{
-  margin-top: 3000%;
+  margin-top: 30%;
+}
+
+html{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -140%;
+}
+
+@media screen and (mac-width: 768px){
+  html{
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 720px){
+  html{
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1224px){
+  .mainTitle{
+    margin-top: 30%;
+  }
 }

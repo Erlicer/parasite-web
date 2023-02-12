@@ -178,3 +178,10 @@ p{
   margin: 0 auto;
   justify-content: center;
 }
+
+.socialBtn{
+  margin-top: 8%;
+  margin-bottom: 30%;
+  display: flex;
+  justify-content: center;
+}

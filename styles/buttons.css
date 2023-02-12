@@ -34,14 +34,31 @@
   border-color: rgba(51, 217, 178, 1);;
   border-width: medium;
   margin: auto;
-  align-items: center;
-  width: 7%;
+  width: 6vw;
   border-radius: 50%;
   background: rgba(51, 217, 178, 1);
   box-shadow: rgba(51, 217, 178, 1);
   animation: pulse-GJ 2s infinite;
-  margin-top: 8%;
-  margin-bottom: 30%;
+}
+
+.blob.red {
+  border: solid;
+  border-color: #ff0000;
+  border-width: medium;
+  margin: auto;
+  width: 6vw;
+  border-radius: 50%;
+  background: #ff0000;
+  box-shadow: #ff0000;
+  animation: pulse-YT 2s infinite;
+}
+
+.blob.green{
+  margin: 0 3vh 3vw;
+}
+
+.blob.red{
+  margin: 0 3vh 3vw;
 }
 
 @keyframes pulse-GJ {
@@ -58,6 +75,23 @@
   100% {
     transform: scale(1.45);
     box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+  }
+}
+
+@keyframes pulse-YT {
+  0% {
+    transform: scale(1.45);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+  }
+  
+  70% {
+    transform: scale(1.5);
+    box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+  }
+  
+  100% {
+    transform: scale(1.45);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
   }
 }
 

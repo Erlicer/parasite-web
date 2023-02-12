@@ -54,11 +54,11 @@
 }
 
 .blob.green{
-  margin: 0 3vh 3vw;
+  margin: 0 4vh 3vw;
 }
 
 .blob.red{
-  margin: 0 3vh 3vw;
+  margin: 0 4vh 3vw;
 }
 
 @keyframes pulse-GJ {

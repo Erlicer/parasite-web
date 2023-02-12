@@ -14,7 +14,7 @@ body{
 }
 
 .logo{
-    margin: auto;
+    margin: 0;
     width: 80%;
     display: block;
 }
@@ -34,6 +34,7 @@ body{
 
 .mainTitle{
     margin-top: 50%;
+    margin-left: 3%;
 }
 
 .botTxtLog{
@@ -77,4 +78,103 @@ body{
 
 .normalBtn{
  align-items: left;
+}
+
+body{
+  margin: 0;
+}
+
+p{
+  margin-left: 3%;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 95vw;
+  height: 30vh;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.slides{
+  width: 400%;
+  height: 30vh;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slideImg{
+  width: 25%;
+  position: relative;
+  transition: 1s;
+}
+
+.slideImg img{
+  width: 95vw;
+  height: 30vh;
+}
+
+.manualNav{
+  position: absolute;
+  width: 95vw;
+  margin-top: -9%;
+  display: flex;
+  justify-content: center;
+}
+
+.manualBtn{
+  border: 1vh solid #fff;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.manualBtn:not(last-child){
+  margin-right: 0.5vh;
+}
+
+.manualBtn:hover{
+  border-color: transparent;
+}
+
+.videoBtn{
+  border-color: red;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -100%;
+}
+
+.playBtn{
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+}
+
+.slideImg iframe{
+  width: 95vw;
+  height: 30vh
+}
+
+.header img{
+  margin: 0 auto;
+  justify-content: center;
 }

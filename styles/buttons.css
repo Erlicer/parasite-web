@@ -33,12 +33,15 @@
   border: solid;
   border-color: rgba(51, 217, 178, 1);;
   border-width: medium;
-  margin: 2.5%;
+  margin: auto;
+  align-items: center;
   width: 7%;
   border-radius: 50%;
   background: rgba(51, 217, 178, 1);
   box-shadow: rgba(51, 217, 178, 1);
   animation: pulse-GJ 2s infinite;
+  margin-top: 8%;
+  margin-bottom: 30%;
 }
 
 @keyframes pulse-GJ {

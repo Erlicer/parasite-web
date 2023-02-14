@@ -141,3 +141,9 @@
   outline: none;
   border: none;
 }
+
+.normalBtn span{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
